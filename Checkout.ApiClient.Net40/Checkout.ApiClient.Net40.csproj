@@ -145,6 +145,10 @@
     <Compile Include="ApiServices\SharedModels\Phone.cs" />
     <Compile Include="ApiServices\SharedModels\SortColumn.cs" />
     <Compile Include="ApiServices\SharedModels\SortOrder.cs" />
+    <Compile Include="ApiServices\ShoppingList\RequestModels\ShoppingListGetList.cs" />
+    <Compile Include="ApiServices\ShoppingList\RequestModels\ShoppingListItem.cs" />
+    <Compile Include="ApiServices\ShoppingList\ResponseModels\ShoppingList.cs" />
+    <Compile Include="ApiServices\ShoppingList\ShoppingListService.cs" />
     <Compile Include="ApiServices\Tokens\RequestModels\PaymentTokenCreate.cs" />
     <Compile Include="ApiServices\Tokens\RequestModels\PaymentTokenUpdate.cs" />
     <Compile Include="ApiServices\Tokens\RequestModels\VisaCheckoutTokenCreate.cs" />

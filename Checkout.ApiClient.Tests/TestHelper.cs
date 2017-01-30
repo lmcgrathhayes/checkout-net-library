@@ -5,6 +5,7 @@ using Checkout.ApiServices.Reporting.RequestModels;
 using Checkout.ApiServices.RecurringPayments.RequestModels;
 using Checkout.ApiServices.SharedModels;
 using Checkout.ApiServices.Tokens.RequestModels;
+using Checkout.ApiServices.ShoppingList.RequestModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -631,6 +632,10 @@ namespace Tests
         {
             return GetQueryRequest(null);
         }
+
+        #endregion
+
+        #region ShoppingList Helpers
 
         #endregion
 
